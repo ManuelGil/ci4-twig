@@ -1,0 +1,43 @@
+{
+  "name": "manuelgil/ci4-twig",
+  "description": "Boilerplate with CodeIgniter 4 and Twig Template Engine.",
+  "license": "MIT",
+  "type": "project",
+  "keywords": [
+    "codeigniter4"
+  ],
+  "authors": [
+    {
+      "name": "ManuelGil",
+      "email": "atencion.ms@outlook.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "codeigniter4/framework": "^4.2",
+    "codeigniter4/translations": "^4.2",
+    "twig/twig": "^3.4"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.9",
+    "mikey179/vfsstream": "^1.6",
+    "phpunit/phpunit": "^9.1"
+  },
+  "suggest": {
+    "ext-fileinfo": "Improves mime type detection for files"
+  },
+  "autoload": {
+    "exclude-from-classmap": [
+      "**/Database/Migrations/**"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Support\\": "tests/_support"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}

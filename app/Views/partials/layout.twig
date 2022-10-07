@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>{% block title %}{% endblock %}</title>
+
+    {% include "/partials/head.twig" %}
+
+</head>
+<body>
+
+<!-- HEADER: MENU + HEROE SECTION -->
+<header>
+
+    {% include "/partials/header.twig" %}
+
+    {% block hero %}{% endblock %}
+
+</header>
+<!-- CONTENT -->
+
+{% block content %}{% endblock %}
+
+<!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
+
+{% block footer %}{% endblock %}
+
+
+<!-- SCRIPTS -->
+
+{% include "/partials/scripts.twig" %}
+
+{% block script %}{% endblock %}
+
+<!-- -->
+
+</body>
+</html>
