@@ -54,6 +54,8 @@ abstract class BaseController extends Controller
 
     /**
      * Constructor.
+     *
+     * @return void
      */
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
@@ -135,9 +137,9 @@ abstract class BaseController extends Controller
      *
      * @param string $filename - the filename of template.
      * @param array $params - the data with context of the template.
-     * @return void
+     * @return string
      */
-    public function render(string $filename, array $params = [])
+    public function render(string $filename, array $params = []): string
     {
         try {
             // Render the template.
@@ -154,8 +156,9 @@ abstract class BaseController extends Controller
                 echo '<pre>' . $e->getTraceAsString() . '</pre>';
                 echo PHP_EOL;
                 echo $e->getMessage();
-                exit;
             }
+
+            return '';
         }
     }
 }
