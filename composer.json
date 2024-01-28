@@ -1,12 +1,9 @@
 {
     "name": "manuelgil/ci4-twig",
-    "description": "🔥 Boilerplate: Twig template engine for CodeIgniter 4 framework.",
+    "description": "🔥 Boilerplate: Twig template engine for CodeIgniter 4 framework",
     "license": "MIT",
     "type": "project",
     "keywords": [
-        "twig template engine",
-        "twig-template-engine",
-        "twig",
         "ci-4",
         "ci",
         "ci4",
@@ -18,12 +15,15 @@
         "mvc",
         "php",
         "template engine",
-        "template"
+        "template",
+        "twig template engine",
+        "twig-template-engine",
+        "twig"
     ],
     "authors": [
         {
             "name": "ManuelGil",
-            "email": "atencion.ms@outlook.com",
+            "email": "support@imgil.dev",
             "role": "Developer"
         }
     ],
