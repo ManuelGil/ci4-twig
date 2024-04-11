@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.15.0] - 2024-03-10
+
+### Changed
+
+- Update version 4.5.0 of CodeIgniter.
+
 ## [1.14.0] - 2024-03-29
 
 ### Changed
@@ -113,7 +119,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rename welcome_message.php to welcome_message.twig.
 - Convert welcome_message.twig to child of layout.twig.
 
-[unreleased]: https://github.com/ManuelGil/ci4-twig/compare/v1.14.0...HEAD
+[unreleased]: https://github.com/ManuelGil/ci4-twig/compare/v1.15.0...HEAD
+[1.15.0]: https://github.com/ManuelGil/ci4-twig/compare/v1.14.0...v1.15.0
 [1.14.0]: https://github.com/ManuelGil/ci4-twig/compare/v1.13.0...v1.14.0
 [1.13.0]: https://github.com/ManuelGil/ci4-twig/compare/v1.12.0...v1.13.0
 [1.12.0]: https://github.com/ManuelGil/ci4-twig/compare/v1.11.1...v1.12.0
